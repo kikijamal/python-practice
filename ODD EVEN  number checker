@@ -1,0 +1,11 @@
+# task2.py
+
+def is_even_or_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Example usage
+number = 7
+print(f"{number} is {is_even_or_odd(number)}")
