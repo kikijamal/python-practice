@@ -1,0 +1,11 @@
+# task1.py
+
+def sum_elements(lst):
+    total = 0
+    for num in lst:
+        total += num
+    return total
+
+# Example usage
+numbers = [1, 2, 3, 4, 5]
+print("Sum of elements:", sum_elements(numbers))
