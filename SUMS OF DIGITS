@@ -1,0 +1,12 @@
+# task6.py
+
+def sum_of_digits(n):
+    total = 0
+    while n > 0:
+        total += n % 10  # Add the last digit to total
+        n //= 10  # Remove the last digit
+    return total
+
+# Example usage
+number = 12345
+print(f"Sum of digits of {number} is {sum_of_digits(number)}")
